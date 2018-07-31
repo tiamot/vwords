@@ -1,0 +1,66 @@
+#!/usr/bin/env python
+import random
+
+magic_words = [
+    'android',
+    'atom',
+    'aws',
+    'bash',
+    'bluetooth',
+    'boba',
+    'boto',
+    'chmod',
+    'chown',
+    'columnar',
+    'cron',
+    'datamart',
+    'dir',
+    'echo',
+    'etl',
+    'fax',
+    'git',
+    'glue',
+    'google',
+    'grep',
+    'gzip',
+    'hadoop',
+    'hbo',
+    'hmem',
+    'hulu',
+    'iphone',
+    'json',
+    'kindle',
+    'larp',
+    'less',
+    'ls',
+    'luigi',
+    'netflix',
+    'nohup',
+    'pager',
+    'parquet',
+    'pdf',
+    'php',
+    'ping',
+    'pip',
+    'postgres',
+    'query',
+    'queue',
+    'redshift',
+    'regex',
+    'root',
+    's3',
+    'sms',
+    'spark',
+    'sql',
+    'sriracha',
+    'ssh',
+    'sublime',
+    'vi',
+]
+
+word1 = random.choice(magic_words)
+word2 = random.choice(magic_words)
+word3 = random.choice(magic_words)
+
+phrase = ' '.join([word1,word2,word3])
+print(phrase)
